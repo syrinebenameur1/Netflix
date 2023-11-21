@@ -1,0 +1,93 @@
+.homeContainer {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url('https://assets.nflxext.com/ffe/siteui/vlv3/a09bb938-2d90-42ae-986e-5a3e4abf9e77/a035f444-23af-4648-b5cf-e37cacc1580b/TN-en-20231113-popsignuptwoweeks-perspective_alpha_website_small.jpg'); /* Reference the image directly */
+       background-size: cover; 
+
+  background-color: black;
+  color:white;
+  padding: 10px 8%;
+  position: relative;
+}
+  
+  
+  .logo {
+    width: 120px;
+    height: 60px;
+  }
+  
+  .navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 ;
+  }
+  
+  
+  .navButton {
+    margin-left: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(227, 0, 0);
+    color:white;
+    font-weight: bolder;
+    border: none;
+  }
+  
+  /* Additional styling for the select element if needed */
+  select {
+    margin-right: 20px;
+    padding: 8px;
+    cursor: pointer;
+    background: transparent;
+    color:white;
+    width: 120px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+.mail {
+display: block;
+padding: 70px;
+line-height: 2;
+width: 100%;
+text-align: center;
+
+}
+h1{
+font-weight: bolder;
+font-size: 3em;
+margin-top: 25px;
+}
+.emails{
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    line-height: 3;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+.emailbtn{
+    padding: 18px;
+    width: 400px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    margin-top: 20px;
+
+}
+.button{
+padding: 15px;
+border-radius: 5px;
+background-color: rgb(227, 0, 0);
+color:white;
+font-weight: bold;
+font-size: larger;
+margin-left: 10px;
+}

@@ -1,0 +1,26 @@
+.footer{
+    background-color: black;
+    color:white;
+    padding: 20px 0;
+}
+
+.fLists{
+display: flex;
+justify-content: space-around;
+}
+.fList{
+text-align: left;
+cursor: pointer;
+
+}
+.fListItem{
+    text-decoration: underline;
+    list-style: none;
+    line-height: 2;
+}
+
+.fText{
+    margin-top: 30px;
+    font-weight: lighter;
+    font-size: small;
+}
